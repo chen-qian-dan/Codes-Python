@@ -18,8 +18,12 @@ class Employee:
     def displayEmployee(se):
         print("Name : ", se.name, ", Salary: ", se.salary)
 
-    def noSelf(name):
-        print("it is okay a method without self argument?")
+    def no_self(name):
+        print(name)
+
+
+def no_self(name):
+    print(name)
 
 
 class Student:
