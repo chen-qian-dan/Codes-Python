@@ -4,6 +4,7 @@ a = Employee("Qian", "100000")
 b = Employee("Chen", "120000")
 
 print(a.empCount)
+a.noSelf("Qian")
 
 from classEmployee import Student
 
