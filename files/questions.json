@@ -1,0 +1,50 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do you have a courtyard, garden, or a farm?",
+      "validation": ["courtyard", "garden", "farm"]
+    },
+    {
+      "id": 9,
+      "question": "Is there a river on your property?",
+      "validation": ["yes", "no"]
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "question_id": 1,
+      "answers": { "courtyard": 2, "garden": 5, "farm": 8 }
+    },
+    {
+      "id": 6,
+      "question_id": 6,
+      "answers": {
+        "1": 17,
+        "2": 17,
+        "3": 18,
+        "4": 18,
+        "5": 7,
+        "6": 7,
+        "7": 21,
+        "8": 21,
+        "9": 11,
+        "10": 22
+      }
+    },
+    { "id": 28, "result_id": 16 }
+  ],
+  "results": [
+    {
+      "id": 1,
+      "name": "Curry leaf tree",
+      "description": "A small tree that's great for courtyards, from which leaves can be picked and added to any curry!"
+    },
+    {
+      "id": 2,
+      "name": "Bay tree",
+      "description": "A robust small tree with small, fragrant, dark green leaves that are great for use in stews and curries."
+    }
+  ]
+}
